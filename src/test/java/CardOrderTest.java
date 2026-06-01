@@ -249,4 +249,4 @@ public class CardOrderTest {  private ChromeDriver driver;
         assertTrue(agreement.getAttribute("class").contains("input_invalid"));
     }
 }
-}
+
