@@ -1,0 +1,11 @@
+image: Ubuntu
+
+stack: jdk 11
+
+install:
+  - java -jar ./artifacts/app-order.jar &
+
+build: off
+
+test_script:
+  - ./gradlew test
